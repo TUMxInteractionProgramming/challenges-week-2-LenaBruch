@@ -1,0 +1,100 @@
+/* colorful palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+/*HELP ! For some reason I do not understand, the borders i entered are not displayed. 
+If anyone knows why that is, please help me!*/
+
+/*Global*/
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        a {color: black;}
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+        button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+        }
+
+        button, strong { /* #2 #font capital #letters */
+            text-transform: uppercase;}
+           
+
+/* App bar */
+        h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+/* Channels list 
+        styles for channel area*/
+        ul {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+            list-style-type: none;
+            padding: 16px;
+            font-size: 16px;
+            border: thin; border-color: #F5F5F5;
+        }
+        ul .selected {border-left-color: #3F51B5; border-left-width: 4px}
+
+/* Tab bar */
+#tab-bar button {text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    border: initial;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    padding: 16px;}
+
+#tab-bar .selected {border-left-width: 4px;
+    border-color: #3F51B5}
+
+/* Messages *//*styles for chat area*/
+.message {
+    width: 80%; margin-left: 2.5%; margin-bottom: 8px;}
+
+.own {margin-left: 17.5%}
+
+.message text {
+    background-color: white;
+     padding: 16px}
+
+.message button {
+    background-color: #CDDC39; 
+    color: black; 
+    text-transform: uppercase;}
+
+        
+ p {/* #2 #colorful #channelandchat */
+    background-color: white;}
+
+
+.message h3 {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;}
+
+.message em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;}
+
+.message a {color: black;}
